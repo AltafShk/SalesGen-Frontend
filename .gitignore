@@ -1,0 +1,27 @@
+# See https://help.github.com/articles/ignoring-files/ for more about ignoring files.
+
+# dependencies
+/frontend/salesgen/node_modules
+/frontend/salesgen/.pnp
+/frontend/salesgen/.pnp.js
+
+# testing
+/frontend/salesgen/coverage
+
+# production
+/frontend/salesgen/build
+
+# misc
+/frontend/salesgen/.DS_Store
+/frontend/salesgen/.env.local
+/frontend/salesgen/.env.development.local
+/frontend/salesgen/.env.test.local
+/frontend/salesgen/.env.production.local
+
+/frontend/salesgen/npm-debug.log*
+/frontend/salesgen/yarn-debug.log*
+/frontend/salesgen/yarn-error.log*
+
+/__pycache__
+/.git
+/venv
