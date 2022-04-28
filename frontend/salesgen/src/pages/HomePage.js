@@ -23,9 +23,9 @@ class HomePage extends Component {
               </div>
 
                 <Stack direction="row" spacing={4}>
-                    <MultiActionAreaCard className="card" image = {require("../assets/history.png")} heading = {"Generation History"} description = {"See what you have generated previously"}/>
-                    <MultiActionAreaCard className="card" image = {require("../assets/model.png")} heading = {"Choose a Model"} description = {"What would you like to generate: title, features list or description?"}/>
-                    <MultiActionAreaCard className="card" image = {require("../assets/help.png")} heading = {"Help"} description = {"Click here to understand what this application is for and how to use it."}/>
+                    <MultiActionAreaCard className="card" image = {require("../assets/history.png")} heading = {"Generation History"} description = {"See what you have generated previously"} link={"history"}/>
+                    <MultiActionAreaCard className="card" image = {require("../assets/model.png")} heading = {"Choose a Model"} description = {"What would you like to generate: title, features list or description?"} link ={"generate"}/>
+                    <MultiActionAreaCard className="card" image = {require("../assets/help.png")} heading = {"Help"} description = {"Click here to understand what this application is for and how to use it."} link = {"help"}/>
                 </Stack>
             
               </div>
